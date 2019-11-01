@@ -14,7 +14,7 @@
   {{-- erros (validação) --}}
   @include('inc.erros')
 
-    
+   {{-- formulario de edição --}} 
   <form method="POST" action="/atualizar/{{ $prod->id }}">
 
      {{ csrf_field() }}

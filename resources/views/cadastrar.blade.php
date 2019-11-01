@@ -14,7 +14,7 @@
   {{-- erros (valida√ß√£o) --}}
   @include('inc.erros')
 
-   {-- formul·rio de cadastro --}}
+   {{-- formul·rio de cadastro --}}
   <form method="POST" action="/cadastrar">
 
      {{ csrf_field() }}
