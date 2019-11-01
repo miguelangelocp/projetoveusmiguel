@@ -11,6 +11,11 @@
 |
 */
 
+/*
+Projeto teste VEUS - Laravel PHP -  Miguel Praça
+Entrega via GITHUB - Fork e Pull Request: 01/11/2019.
+*/
+
 Route::get('/', function () {
     return view('usuarios_login');
 });
